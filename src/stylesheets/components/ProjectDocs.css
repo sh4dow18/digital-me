@@ -1,0 +1,246 @@
+/* Markdown Project Docs Container Styles */
+.markdown-body {
+  /* Display */
+  width: 900px;
+  border-radius: 6px;
+  /* Spacers */
+  padding: 20px;
+  margin-inline: auto; /* Margin Left and Right at the Same Time */
+  /* Texts */
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: Arial;
+  /* Colors */
+  background-color: #0D1117;
+  color: #C9D1D9;
+}
+
+/* Markdown Body Tags Styles */
+
+/* First Grade Tags */
+/* Sorted Alphabetically */
+
+/* Links General Styles */
+.markdown-body a {
+  /* Colors */
+  color: #58A6FF;
+}
+/* Links General Styles when the mouse is over the Link */
+.markdown-body a:hover {
+  /* Colors */
+  color: #79C0FF;
+}
+/* Blockquote General Styles */
+.markdown-body blockquote {
+  /* Spacers */
+  padding: 0.5em 1em;
+  margin: 10px 0 10px 0;
+  /* Colors */
+  background-color: transparent;
+  border-left: 0.25em solid #6E7681;
+  color: #8B949E;
+}
+/* Titles General Styles */
+.markdown-body :is(h1, h2, h3, h4, h5, h6) {
+  /* Spacers */
+  margin: 24px 0 16px;
+  /* Colors */
+  border-bottom: #666666 1.5px solid;
+}
+/* Title H1 Styles */
+.markdown-body h1 {
+  /* Display */
+  text-align: center;
+  /* Texts */
+  font-size: 50px;
+}
+/* Title H2 Styles */
+.markdown-body h2 {
+  /* Texts */
+  font-size: 24px;
+}
+/* Title H3 Styles */
+.markdown-body h3 {
+  /* Texts */
+  font-size: 20px;
+}
+/* Title H4 Styles */
+.markdown-body h4 {
+  /* Texts */
+  font-size: 18px;
+}
+/* Title H5 Styles */
+.markdown-body h5 {
+  /* Texts */
+  font-size: 16px;
+}
+/* Title H6 Styles */
+.markdown-body h6 {
+  /* Texts */
+  font-size: 14px;
+}
+/* Paragraphs General Styles */
+.markdown-body p {
+  margin: 0 0 16px;
+}
+/* Preformatted Texts General Styles */
+.markdown-body pre {
+  /* Display */
+  overflow: auto;
+  border-radius: 6px;
+  /* Spacers */
+  padding: 16px;
+  /* Texts */
+  line-height: 1.45;
+  /* Colors */
+  background-color: #161B22;
+}
+/* Section Styles only if it is a Direct Child of the markdown-body */
+.markdown-body > section {
+  /* Display */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Tables General Styles */
+.markdown-body table {
+  /* Display */
+  border-collapse: collapse; /* Cells Together */
+  /* Spacers */
+  margin-bottom: 16px;
+}
+/* Unordered lists General Styles */
+.markdown-body ul {
+  /* Spacers */
+  margin: 0 0 16px
+}
+
+/* Second Grade Tags */
+/* Sorted Alphabetically */
+
+/* Paragraphs in Blockquotes Styles */
+.markdown-body blockquote p {
+  /* Spacers */
+  margin: 0;
+}
+/* Preformatted Texts in Blockquotes Styles */
+.markdown-body blockquote pre {
+  /* Spacers */
+  margin-bottom: 0;
+}
+/* Images Styles only if it is a Direct Child of the markdown-body paragraphs */
+.markdown-body p > img {
+  /* Display */
+  width: 100%;
+  border-radius: 15px;
+  /* Spacers */
+  margin: 10px 0;
+  /* Colors */
+  box-shadow: 0px 0px 20px #777;
+}
+/* Preformatted Code General Styles */
+.markdown-body pre code {
+  font-size: 85%;
+}
+/* Image Styles in Section only if it is a Direct Child of the markdown-body */
+.markdown-body > section img {
+  /* Display */
+  border-radius: 10px;
+  /* Spacers */
+  margin-inline: 5px;
+  /* Colors */
+  box-shadow: 0px 0px 10px #777;
+}
+/* Table Headers and Data Styles */
+.markdown-body table :is(td, th) {
+  /* Spacers */
+  padding: 6px 13px;
+  /* Colors */
+  border: 1px solid #30363D;
+}
+/* Table Headers General Styles */
+.markdown-body table th {
+  /* Colors */
+  background-color: #0D1117;
+  color: #C9D1D9;
+}
+/* Table Data General Styles */
+.markdown-body table td {
+  /* Colors */
+  background-color: #161B22;
+}
+/* List Items from Unordered Lists Styles */
+.markdown-body ul li {
+  /* Spacers */
+  margin-bottom: 8px;
+}
+/* Unordered lists in Unordered lists Styles */
+.markdown-body ul ul {
+  /* Spacers */
+  margin-bottom: 0;
+}
+
+/* Markdown Body Classes Styles */
+
+/* First Grade Classes */
+/* Sorted Alphabetically */
+
+/* Important Github Alert Styles */
+.markdown-body .important {
+  /* Colors */
+  border-left-color: #8957E5;
+}
+/* Note Github Alert Styles */
+.markdown-body .note {
+  /* Colors */
+  border-left-color: #1F6FEB;
+}
+/* Tip Github Alert Styles */
+.markdown-body .tip {
+  /* Colors */
+  border-left-color: #238636;
+}
+
+/* Second Grade Classes */
+/* Sorted Alphabetically */
+
+/* Strong in Important Github Alert Styles only if it is a Direct Child of the markdown-body */
+.markdown-body .important > strong {
+  /* Colors */
+  color: #8957E5;
+}
+/* Strong in Note Github Alert Styles only if it is a Direct Child of the markdown-body */
+.markdown-body .note > strong {
+  /* Colors */
+  color: #1F6FEB;
+}
+/* Strong in Tip Github Alert Styles only if it is a Direct Child of the markdown-body */
+.markdown-body .tip > strong {
+  /* Colors */
+  color: #238636;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {
+  /* Markdown Project Docs Container Styles */
+  .markdown-body {
+    /* Display */
+    width: auto;
+    /* Spacers */
+    margin-inline: 0;
+  }
+  /* Markdown Body Tags Styles */
+  /* First Grade Tags */
+  /* Sorted Alphabetically */
+  .markdown-body table {
+    /* Display */
+    width: 100%;
+  }
+  /* Second Grade Tags */
+  /* Sorted Alphabetically */
+  .markdown-body table :is(td, th) {
+    /* Display */
+    overflow-wrap: anywhere;
+  }
+}

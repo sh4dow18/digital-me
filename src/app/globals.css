@@ -1,0 +1,14 @@
+/* Body Style */
+body {
+  margin: 0;
+  /* 100% Viewport Height, which means that the page adjusts to the height of the screen that the browser is occupying */
+  height: 100vh;
+  background-color: #0d1117;
+}
+
+.home-container {
+  color: #C9D1D9;
+  text-align: center;
+  align-content: center;
+  height: 100vh;
+}
