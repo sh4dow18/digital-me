@@ -54,31 +54,49 @@ If you want to know about this license, click
 
 ## <img src="https://emojiapi.dev/api/v1/rocket/32.jpg" alt="STARTED" height="20"/> Getting Started
 
+> [!NOTE]
+> This part is **only** for you to install yourself on your machine to create your own or to collaborate
+
 ## <img src="https://emojiapi.dev/api/v1/grinning_face_with_big_eyes/32.jpg" alt="USE" height="20"/> Use
 
 Here will explain to you how to use this project
 
 ### <img src="https://emojiapi.dev/api/v1/large_blue_diamond/32.jpg" alt="INSTALLATION" height="18"/> Installation
 
+Here will explain to you how to install this project
+
 #### <img src="https://emojiapi.dev/api/v1/desktop_computer/32.jpg" alt="DISTROS" height="16"/> Dependencies
 
-First, to use the **<NAME>**, you need to install **<PACKAGES>**
+First, to use the **Braitec Website**, you need to install **NodeJS**
+
+> [!NOTE]
+> You can follow the instructions to install it of official website clicking **[here](https://nodejs.org/en/download/package-manager/all)**
 
 #### <img src="https://emojiapi.dev/api/v1/right_arrow_curving_down/32.jpg" alt="CLONE_REPO" height="16"/> Clone Repository
 
 Later, you will clone this repository:
 
 ```bash
-git clone https://github.com/sh4dow18/<REPO>.git
+git clone https://github.com/sh4dow18/braitec.git
 ```
 
-Now, go to "nirit" folder:
+Now, go to **Braitec** folder:
 
 ```bash
-cd <REPO>/
+cd braitec/
 ```
 
-Next Instructions...
+Next, install **NextJS** dependencies
+
+```bash
+npm install
+```
+
+Finally, run **NextJS** for development
+
+```bash
+npm run dev
+```
 
 #### <img src="https://emojiapi.dev/api/v1/camera/32.jpg" alt="SCREENSHOTS" height="16"/> Screenshots
 
