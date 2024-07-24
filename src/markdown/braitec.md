@@ -156,8 +156,8 @@ Here will show what technical resources were necessary to create the project, ig
 [REACT_IMAGE]: https://img.shields.io/badge/React-14809A?style=for-the-badge&logo=react&logoColor=white&labelColor=gray
 [REACT_URL]: https://react.dev
 
-| Name                               | Used for               |
-| ---------------------------------- | ---------------------- |
+| Name                               | Used for                |
+| ---------------------------------- | ----------------------- |
 | [![REACT][REACT_IMAGE]][REACT_URL] | Front-End UI Components |
 
 ##### Integrated Development Environments
@@ -178,13 +178,85 @@ Here will show the Project Requirements
 
 #### Functional Requirements
 
-| Id  | Name | Description |
-| --- | ---- | ----------- |
+##### Page Header
+
+| Id    | Name           | Description                                                                                                                                                                                                                                                          |
+| ----- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PH-01 | **Logo**       | The system must display the company logo. This functionality must be implemented in the page header. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                       |
+| PH-02 | **Navigation** | The system must allow navigation between the application pages. This functionality must be implemented in the page header. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards. |
+
+##### Page Footer
+
+| Id    | Name                 | Description                                                                                                                                                                                                                                                              |
+| ----- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| PF-01 | **Logo**             | The system must display the company logo. This functionality must be implemented in the page footer. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                           |
+| PF-02 | **Written Location** | The system must display the written location of the premises. This functionality must be implemented in the page footer. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.       |
+| PF-03 | **Social Media**     | The system must display the company's social media. This functionality must be implemented in the page footer. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                 |
+| PF-04 | **Credits**          | The system must display who created the website. This functionality must be implemented in the page footer. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                    |
+| PF-05 | **Last Update**      | The system must display the last update of the website information. This functionality must be implemented in the page footer. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards. |
+| PF-06 | **Phone Number**     | The system must display the main phone number of the business. This functionality must be implemented in the page footer. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.      |
+
+##### Home Page
+
+| Id    | Name                      | Description                                                                                                                                                                                                                                                                     |
+| ----- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HP-01 | **Presentation**          | The system must display a small and attractive presentation of the business. This functionality must be implemented on the home page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards. |
+| HP-02 | **Definition**            | The system must display the definition of the business. This functionality must be implemented on the home page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                      |
+| HP-03 | **Competitive Advantage** | The system must display the competitive advantage of the business. This functionality must be implemented on the home page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.           |
+| HP-04 | **Mission**               | The system must display the mission of the business. This functionality must be implemented on the home page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                         |
+| HP-05 | **Vision**                | The system must display the vision of the business. This functionality must be implemented on the home page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                          |
+| HP-06 | **Brand Traits**          | The system must display the brand traits of the business. This functionality must be implemented on the home page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                    |
+| HP-07 | **Benefits**              | The system must display the benefits of the business. This functionality must be implemented on the home page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                        |
+
+##### Computer Repair Services Page
+
+| Id    | Name                            | Description                                                                                                                                                                                                                                                                                                              |
+| ----- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| CS-01 | **Computer Repair Services**    | The system must display the computer repair services provided by the business. This functionality must be implemented on the Computer Repair Services page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                    |
+| CS-02 | **Computer Repair Combos**      | The system must display the combos of the computer repair services provided by the business. This functionality must be implemented on the Computer Repair Services page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.      |
+| CS-03 | **Computer Repair Offers**      | The system must display the offers of the computer repair services provided by the business. This functionality must be implemented on the Computer Repair Services page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.      |
+| CS-04 | **Computer Repair Mega Combos** | The system must display the mega combos of the computer repair services provided by the business. This functionality must be implemented on the Computer Repair Services page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards. |
+
+##### Web Development Services Page
+
+| Id    | Name                         | Description                                                                                                                                                                                                                                                                                           |
+| ----- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| WD-01 | **Web Development Services** | The system must display the web development services provided by the business. This functionality must be implemented on the Web Development Services page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards. |
+
+##### Cell Phone Repair Services Page
+
+| Id    | Name                           | Description                                                                                                                                                                                                                                                                                               |
+| ----- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PS-01 | **Cell Phone Repair Services** | The system must display the cell phone repair services provided by the business. This functionality must be implemented on the Cell Phone Repair Services page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards. |
+
+##### Contact Page
+
+| Id    | Name                     | Description                                                                                                                                                                                                                                                                                                                                                                                  |
+| ----- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CO-01 | **Contact Form**         | The system must allow using a contact form. The form must include: Name, Email, and Message. Upon submitting the form, a contact notification email must be generated to the business. This functionality must be implemented on the Contact page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards. |
+| CO-02 | **Contact Notification** | The system must automatically send a contact notification to the business. The notification must be done by email and it must contain: Name, Sender's Email, and Message. The notification should only be received by the business. Additionally, it must have a business signature. Finally, the section must be carried out according to the established standards.                        |
+
+##### Location Page
+
+| Id    | Name              | Description                                                                                                                                                                                                                                                                                         |
+| ----- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| LP-01 | **Location**      | The system must display the description of the location. This functionality must be implemented on the Location page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                                     |
+| LP-02 | **Opening Hours** | The system must display the opening hours of the location to know when it is open or closed. This functionality must be implemented on the Location page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards. |
+
+##### About Us Page
+
+| Id    | Name                       | Description                                                                                                                                                                                                                                                                         |
+| ----- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AU-01 | **Founder**                | The system must display the information about the founder. This functionality must be implemented on the About Us page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards.                   |
+| AU-02 | **Founder's Social Media** | The system must display links to directly access the founder's social media. This functionality must be implemented on the About Us page. Additionally, this section must be visible to all users. Finally, the section must be carried out according to the established standards. |
 
 #### Non-Functional Requirements
 
-| Id  | Name | Description |
-| --- | ---- | ----------- |
+| Id     | Name                | Description                                                                 |
+| ------ | ------------------- | --------------------------------------------------------------------------- |
+| NFR-01 | **Usability**       | The system must ensure it is intuitive and easy to use for users            |
+| NFR-02 | **Scalability**     | The system must ensure it can adapt and expand without losing performance   |
+| NFR-03 | **Maintainability** | The system must facilitate the task of maintaining and improving the system |
 
 ### <img src="https://emojiapi.dev/api/v1/page_with_curl/32.jpg" alt="STANDARTS" height="18"/> Standarts
 
