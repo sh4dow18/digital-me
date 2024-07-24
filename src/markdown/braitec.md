@@ -267,10 +267,21 @@ The mandatory formats to work on this project will be shown here
 
 #### Programming Format
 
-| Id  | Name | Format | Language | Example |
-| --- | ---- | ------ | -------- | ------- |
+| Id    | Name          | Format           | Language | Example       |
+| ----- | ------------- | ---------------- | -------- | ------------- |
+| PF-01 | **Variables** | Camel Case       | English  | variablesList |
+| PF-02 | **Constants** | Upper Snake Case | English  | PI_NUMBER     |
+| PF-03 | **Functions** | Pascal Case      | English  | HomePage      |
 
-### <img src="https://emojiapi.dev/api/v1/exclamation_question_mark/32.jpg" alt="WHAT_DOES" height="18"/> <EXTRA INFO>
+#### Design Format
+
+| Id    | Name            | Format                                        |
+| ----- | --------------- | --------------------------------------------- |
+| DF-01 | **Main Colors** | White: #FAFAFA, Black: #0A0A0A, Blue: #00AAAA |
+| DF-02 | **Dark Mode**   | Background Color: #0A0A0A, Color: #FAFAFA     |
+| DF-03 | **Light Mode**  | Background Color: #FAFAFA, Color: #0A0A0A     |
+
+<!-- ### <img src="https://emojiapi.dev/api/v1/exclamation_question_mark/32.jpg" alt="WHAT_DOES" height="18"/> <EXTRA INFO> -->
 
 ### <img src="https://emojiapi.dev/api/v1/new_moon/32.jpg" alt="TO_DO" height="18"/> Post Launch
 
