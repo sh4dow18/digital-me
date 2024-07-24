@@ -28,6 +28,8 @@
 
 ## <img src="https://emojiapi.dev/api/v1/eyes/32.jpg" alt="OVERVIEW" height="20"/> Overview
 
+**Braitec Website** is the official website of **Braitec: Soluciones Tecnológicas**
+
 ### <img src="https://emojiapi.dev/api/v1/key/32.jpg" alt="LICENSE" height="18"/> License
 
 This project is licensed under a **GNU General Public License v3.0**.
@@ -37,18 +39,20 @@ If you want to know about this license, click
 
 ### <img src="https://emojiapi.dev/api/v1/hammer_and_wrench/32.jpg" alt="STACK" height="18"/> Stack
 
-| Tech                         | Description                                                   | Used for               |
-| ---------------------------- | ------------------------------------------------------------- | ---------------------- |
+[NODE_IMAGE]: https://img.shields.io/badge/NodeJS-3F873F?style=for-the-badge&logo=node.js&logoColor=white&labelColor=gray
+[NODE_URL]: https://nodejs.org/
+[NEXTJS_IMAGE]: https://img.shields.io/badge/NextJS-0A0A0A?style=for-the-badge&logo=next.js&logoColor=white&labelColor=gray
+[NEXTJS_URL]: https://nextjs.org
+[TYPESCRIPT_IMAGE]: https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=gray
+[TYPESCRIPT_URL]: https://www.typescriptlang.org
 
-### <img src="https://emojiapi.dev/api/v1/check_mark_button/32.jpg" alt="COMPATIBILITY" height="18"/> Compatibility
-
-**<NAME>** currently works on the following <WHERE>:
-
-- <img src="<ELEMENT_IMAGE>" alt="<ELEMENT_ALT>" height="16"/> **[ELEMENT_NAME](ELEMENT_LINK)**
+| Tech                                              | Description                                                    | Used for                                   |
+| ------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------ |
+| [![NODEJS][NODE_IMAGE]][NODE_URL]                 | Server-Side JavaScript Runtime Environment                     | Execute NextJS and install it dependencies |
+| [![NEXTJS][NEXTJS_IMAGE]][NEXTJS_URL]             | React framework for server-rendered applications               | Website                                    |
+| [![TYPESCRIPT][TYPESCRIPT_IMAGE]][TYPESCRIPT_URL] | Typed superset of JavaScript that compiles to plain JavaScript | Variables Types                            |
 
 ## <img src="https://emojiapi.dev/api/v1/rocket/32.jpg" alt="STARTED" height="20"/> Getting Started
-
-<NOTES>
 
 ## <img src="https://emojiapi.dev/api/v1/grinning_face_with_big_eyes/32.jpg" alt="USE" height="20"/> Use
 
@@ -131,8 +135,8 @@ Here will show what technical resources were necessary to create the project, ig
 
 ##### Integrated Development Environments
 
-| Name                                                | Used for   |
-| --------------------------------------------------- | ---------- |
+| Name | Used for |
+| ---- | -------- |
 
 ### <img src="https://emojiapi.dev/api/v1/speaking_head/32.jpg" alt="REQUIREMENTS" height="18"/> Requirements
 
@@ -143,13 +147,13 @@ Here will show the Project Requirements
 
 #### Functional Requirements
 
-| Id    | Name                | Description                                                                            |
-| ----- | ------------------- | -------------------------------------------------------------------------------------- |
+| Id  | Name | Description |
+| --- | ---- | ----------- |
 
 #### Non-Functional Requirements
 
-| Id     | Name                | Description                                                                 |
-| ------ | ------------------- | --------------------------------------------------------------------------- |
+| Id  | Name | Description |
+| --- | ---- | ----------- |
 
 ### <img src="https://emojiapi.dev/api/v1/page_with_curl/32.jpg" alt="STANDARTS" height="18"/> Standarts
 
@@ -160,8 +164,8 @@ The mandatory formats to work on this project will be shown here
 
 #### Programming Format
 
-| Id    | Name          | Format                   | Language | Example         |
-| ----- | ------------- | ------------------------ | -------- | --------------- |
+| Id  | Name | Format | Language | Example |
+| --- | ---- | ------ | -------- | ------- |
 
 ### <img src="https://emojiapi.dev/api/v1/exclamation_question_mark/32.jpg" alt="WHAT_DOES" height="18"/> <EXTRA INFO>
 
@@ -170,7 +174,6 @@ The mandatory formats to work on this project will be shown here
 Here the planned Post Launched will be shown
 
 #### <img src="https://emojiapi.dev/api/v1/check_box_with_check/32.jpg" alt="TO_DO" height="16"/> To Do
-
 
 #### <img src="https://emojiapi.dev/api/v1/hourglass_done/32.jpg" alt="UPDATES" height="16"/> Updates (Sorted from Newest to Oldest)
 
