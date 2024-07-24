@@ -115,46 +115,59 @@ Here the Project Vision will be explained, which shows why it was created
 
 #### Problem Definition
 
-<THIS IS AN EXAMPLE>
+The problem is that **Braitec: Soluciones Tecnológicas** desires a more flexible digital environment for configuration than what social media platforms provide. Limitations on these platforms affect the company's ability to:
 
-The problem is that creating a custom desktop environment for Linux by installing package by package can take hours, up to 10 hours. In the case of a system failure or wanting to clean up by reinstalling the system, even more time is required to redo the custom desktop environment. This generates several inconveniences, including:
-
-- **Loss of time and efficiency**: Configuring a custom desktop environment from scratch consumes a considerable amount of time, resulting in a loss of productivity.
-
-- **Difficulty in replicating the environment**: When reinstalling the operating system or troubleshooting, replicating the exact desktop environment becomes complicated and requires remembering and manually reconfiguring all customizations.
-
-- **Lack of automation**: Not having an automated process for configuring the environment means that each adjustment and package must be installed and configured manually, which is tedious and prone to errors.
+- **Customize effectively**: Social media platforms offer limited customization options, restricting Braitec's ability to effectively showcase its technological services and solutions.
+- **Control over user experience**: Lack of flexibility in digital setup prevents Braitec from creating a consistent and personalized digital experience for its clients and users.
+- **Scalability and specific functionality**: The need for specific functionalities and adequate scalability to accommodate Braitec's growth and evolution cannot be fully met by standard social media platforms.
 
 #### Who Does It Affect?
 
-<THIS IS AN EXAMPLE>
+This problem affects several types of people, including:
 
-This problem affects several types of users, including:
+- **Founder**: As the sole operator of the startup, the founder faces significant challenges in effectively managing Braitec's digital presence. Limitations on social media platforms hinder the creation of a robust and personalized online presence. This can lead to less effective communication of the company's capabilities and services, impacting the attraction and retention of potential clients.
 
-- **Individual users**: Users who configure their own custom desktop environments are the most affected. They experience a considerable loss of time and effort in manually installing and configuring each package, which can lead to frustration and disruption in their workflow, especially when facing system failures or deciding to reinstall the operating system.
-
-- **Developers**: Developers who need a specific environment for their work suffer from having to spend hours configuring their development environment each time they install or reinstall the operating system. This is not only an inefficient use of time but can also affect productivity and project deadlines.
+- **Clients**: Clients of Braitec are also affected by these limitations. They may experience difficulties in accessing clear and detailed information about the services offered, due to the lack of flexibility in the company's digital platform. This can affect the overall client experience and perception of Braitec's professionalism and technological capability.
 
 #### Impact of Not Undertaking the Project
 
-<THIS IS AN EXAMPLE>
-
 Not developing the project can have a significant impact, which can be mentioned as follows:
 
-- **Frustration and demotivation**: The constant need to replicate configurations after system failures or reinstalls can result in a frustrating experience, demotivating users from continuing to customize their desktop environment.
+- **Limited visibility and customer attraction**: The lack of a robust and personalized digital presence would limit Braitec's ability to attract new clients and potential partners. This could affect business growth and expansion.
 
-- **Frequent interruptions in workflow**: Without a solution to automate the configuration, interruptions in workflow due to operating system reinstalls will continue to be a recurring problem, negatively affecting the continuity and quality of users' work.
+- **Reduced market competitiveness**: Inability to clearly communicate the company's capabilities and services could make Braitec appear less professional and competitive compared to competitors with a strong digital presence.
 
-- **Risk of losing customizations**: In case of system failures or the need for reinstalls, users will continue to face the risk of losing all their customizations, which can lead to a negative experience and greater distrust in the stability and usability of the Linux operating system.
+- **Impaired customer experience**: Current and potential clients may struggle to obtain accurate and detailed information about Braitec's services. This could lead to a less satisfactory customer experience and lower customer retention.
 
 #### Technical Required Resources
 
 Here will show what technical resources were necessary to create the project, ignoring the stack
 
+##### Arquitecture
+
+[HYBRID_IMAGE]: https://img.shields.io/badge/Hybrid%20Model%20View%20Controller-0A0A0A?style=for-the-badge&logo=next.js&logoColor=white&labelColor=gray
+
+| Name                                          | Used for  |
+| --------------------------------------------- | --------- |
+| ![Hybrid Model View Controller][HYBRID_IMAGE] | Front-End |
+
+##### Libraries
+
+[REACT_IMAGE]: https://img.shields.io/badge/React-14809A?style=for-the-badge&logo=react&logoColor=white&labelColor=gray
+[REACT_URL]: https://react.dev
+
+| Name                               | Used for               |
+| ---------------------------------- | ---------------------- |
+| [![REACT][REACT_IMAGE]][REACT_URL] | Front-End UI Components |
+
 ##### Integrated Development Environments
 
-| Name | Used for |
-| ---- | -------- |
+[VSCODE_CONTENT]: https://img.shields.io/badge/Visual%20Studio%20Code-0066AA?style=for-the-badge&labelColor=gray
+[VSCODE_URL]: https://code.visualstudio.com
+
+| Name                                                | Used for  |
+| --------------------------------------------------- | --------- |
+| [![Visual Studio Code][VSCODE_CONTENT]][VSCODE_URL] | Front-End |
 
 ### <img src="https://emojiapi.dev/api/v1/speaking_head/32.jpg" alt="REQUIREMENTS" height="18"/> Requirements
 
