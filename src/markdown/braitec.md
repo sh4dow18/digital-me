@@ -289,12 +289,13 @@ Here the planned Post Launched will be shown
 
 #### <img src="https://emojiapi.dev/api/v1/check_box_with_check/32.jpg" alt="TO_DO" height="16"/> To Do
 
+Nothing at the Moment
+
 #### <img src="https://emojiapi.dev/api/v1/hourglass_done/32.jpg" alt="UPDATES" height="16"/> Updates (Sorted from Newest to Oldest)
 
-##### 1.0.0 (2024-07-19)
+##### 1.0.0 (2024-??-??)
 
 - Init Project
 - Add GPL 3.0 License
 - Add Readme File
-- Add <NAME> Documentation Page
-- <EXTRA...>
+- Add Braitec Website Documentation Page
