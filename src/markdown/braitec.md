@@ -1,6 +1,6 @@
 # Braitec Website
 
-![NAME](IMAGE)
+![BRAITEC](/braitec/braitec.png)
 
 <section>
   <!-- REPO INFORMATION -->
@@ -13,6 +13,9 @@
   <!-- TECNOLOGIES -->
   <a href="https://nodejs.org/">
     <img src="https://img.shields.io/badge/NodeJS-3F873F?style=for-the-badge&logo=node.js&logoColor=white&labelColor=gray" alt="NodeJS" />
+  </a>
+  <a href="https://react.dev">
+    <img src="https://img.shields.io/badge/React-14809A?style=for-the-badge&logo=react&logoColor=white&labelColor=gray" alt="ReactJS" />
   </a>
   <a href="https://nextjs.org">
     <img src="https://img.shields.io/badge/NextJS-0A0A0A?style=for-the-badge&logo=next.js&logoColor=white&labelColor=gray" alt="NextJS" />
@@ -41,6 +44,8 @@ If you want to know about this license, click
 
 [NODE_IMAGE]: https://img.shields.io/badge/NodeJS-3F873F?style=for-the-badge&logo=node.js&logoColor=white&labelColor=gray
 [NODE_URL]: https://nodejs.org/
+[REACT_IMAGE]: https://img.shields.io/badge/React-14809A?style=for-the-badge&logo=react&logoColor=white&labelColor=gray
+[REACT_URL]: https://react.dev
 [NEXTJS_IMAGE]: https://img.shields.io/badge/NextJS-0A0A0A?style=for-the-badge&logo=next.js&logoColor=white&labelColor=gray
 [NEXTJS_URL]: https://nextjs.org
 [TYPESCRIPT_IMAGE]: https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=gray
@@ -49,6 +54,7 @@ If you want to know about this license, click
 | Tech                                              | Description                                                    | Used for                                   |
 | ------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------ |
 | [![NODEJS][NODE_IMAGE]][NODE_URL]                 | Server-Side JavaScript Runtime Environment                     | Execute NextJS and install it dependencies |
+| [![REACTJS][REACT_IMAGE]][REACT_URL]              | JavaScript library for building user interfaces                | UI Components                              |
 | [![NEXTJS][NEXTJS_IMAGE]][NEXTJS_URL]             | React framework for server-rendered applications               | Website                                    |
 | [![TYPESCRIPT][TYPESCRIPT_IMAGE]][TYPESCRIPT_URL] | Typed superset of JavaScript that compiles to plain JavaScript | Variables Types                            |
 
