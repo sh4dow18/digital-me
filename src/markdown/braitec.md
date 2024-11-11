@@ -104,10 +104,6 @@ Finally, run **NextJS** for development
 npm run dev
 ```
 
-#### <img src="https://emojiapi.dev/api/v1/camera/32.jpg" alt="SCREENSHOTS" height="16"/> Screenshots
-
-Here will show screenshots of the Project working
-
 ## <img src="https://emojiapi.dev/api/v1/magnifying_glass_tilted_right/32.jpg" alt="DEEPER" height="20"/> Looking Deeper
 
 Do you Want to Know More? **Keep Reading :D**
